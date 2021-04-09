@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  
+  <form action="/login" method="post">
+    <input type="text" name="user_name" />
+    <input type="password" name="password" />
+    <button type="submit">提交</button>
+  </form>
+  
+
+  一. 表单的组成
+  1.表单标签（form）
+  2.表单域（具有交互功能的dom元素，input等）
+  3.提交按钮
+
+  form属性
+  1. action 表单提交数据的地址
+
+  2. target 
+  2.1 target：-self（默认）在当前窗口打开
+  2.2 target：-blank 新窗口打开
+
+  3.method 以何种方式提交表单
+  3.1 get（默认）以url形式提交  适合提交少量简单的数据
+  3.2 post 通过formdata 形式提交 不会在url栏内显示提交内容 更加安全 适合大量复杂 含有文件的表单数据提交
+
+  4.enctype 是否编码提交
+  
+</body>
+
+</html>
